@@ -1,0 +1,102 @@
+/* Designed by The DocRepair Project, Santiago Orozco */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+body {
+    margin: 0px;
+    background-color: black;
+    background-image: linear-gradient(to bottom right, rgba(50, 49, 131, 0.416), rgba(59, 27, 66, 0.416));
+    color: white;
+    font-family: 'Belanosima', sans-serif;
+}
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 7.5rem;
+    padding-bottom: 5rem;
+}
+#title {
+    font-size: 60px;
+    font-weight: bold;
+}
+#child {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+#left {
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vh;
+}
+#right {
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 3rem;
+}
+#right-inside {
+    width: 100%;
+    height: 100%;
+    background: none;
+    background-image: linear-gradient(to bottom right, rgba(19, 18, 90, 0.313), rgba(106, 31, 123, 0.352));
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+#timer {
+    font-size: 55px;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    gap: 2vw;
+}
+.btn {
+    height: 3rem;
+    width: 6rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.223);
+    color: white;
+    font-size: 17px;
+    background: none;
+    background-image: linear-gradient(to bottom left, rgba(38, 30, 30, 0.27), rgba(0, 0, 0, 0.245));
+    backdrop-filter: blur(10px);
+}
+.btn:hover {
+    background-image: linear-gradient(to bottom left, rgba(60, 60, 60, 0.264), rgba(56, 56, 56, 0.256));
+}
+#runData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: fit-content;
+    gap: 1vh;
+}

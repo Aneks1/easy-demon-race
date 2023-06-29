@@ -1,24 +1,3 @@
-# easy-demon-race
+![banner](https://media.discordapp.net/attachments/1027762756734173184/1124098313742983188/EDC_Banner1.png)
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Challenge for Geometry Dash
