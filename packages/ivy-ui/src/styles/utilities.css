@@ -1,0 +1,26 @@
+/* Base spacing utilities */
+.p-1 { padding: 4px; }
+.p-2 { padding: 8px; }
+.p-4 { padding: 16px; }
+
+.m-1 { margin: 4px; }
+.m-2 { margin: 8px; }
+.m-4 { margin: 16px; }
+
+.text-center { text-align: center; }
+.text-sm { font-size: 0.875rem; }
+.text-md { font-size: 1rem; }
+.text-lg { font-size: 1.25rem; }
+.text-xl { font-size: 1.5rem; }
+.text-xxl { font-size: 1.75rem; }
+.text-xxxl { font-size: 2rem; }
+
+.bg-base-1 { background-color: var(--base-color-1); }
+.bg-base-2 { background-color: var(--base-color-2); }
+.bg-accent-1 { background-color: var(--accent-color-1); }
+.bg-accent-2 { background-color: var(--accent-color-2); }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}

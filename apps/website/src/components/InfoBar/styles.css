@@ -1,0 +1,54 @@
+.info-bar {
+    width: fit-content;
+    height: 5rem;
+    background-color: rgb(25, 25, 25);
+    position: fixed;
+    bottom: 5rem;
+    left: 50%;
+    translate: -50% 0;
+    border-radius: 25px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0px 2rem;
+    z-index: 999;
+}
+
+.info-bar .timer {
+    font-size: 3rem;
+    font-weight: 700;
+    user-select: none;
+}
+
+.info-bar button {
+    height: 3rem;
+    width: 6rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.info-bar button:hover {
+    filter: brightness(0.5);
+    transition: filter 250ms;
+}
+
+.info-bar .start {
+    background-color: var(--main);
+}
+
+.info-bar .pause {
+    background-color: var(--red);
+}
+
+.info-bar .info-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}

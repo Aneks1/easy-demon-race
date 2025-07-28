@@ -1,0 +1,64 @@
+.demon-card {
+    width: 35rem;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+    background-color: rgb(25, 25, 25);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    gap: 5rem;
+    animation: fade-in 1s;
+}
+
+@media (max-width: 40rem) {
+    .demon-card {
+        width: 100%;
+        gap: 2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+.demon-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+}
+
+.demon-card button {
+    height: 3rem;
+    width: fit-content;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0px 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--main);
+}
+
+.demon-card button:hover {
+    filter: brightness(0.5);
+    transition: filter 250ms;
+}
+
+.demon-card .demon-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(4rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

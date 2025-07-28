@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    background-color: rgb(14, 14, 14);
+    font-family: "Rubik", sans-serif;
+    color: white;
+    --main: rgb(0, 226, 94);
+    --red: rgb(255, 60, 60);
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.main {
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 7rem 0px;
+    gap: 1rem;
+}
+
+.main .title {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+
+.demons-container {
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5rem 2rem;
+    gap: 2rem;
+    box-sizing: border-box;
+}
